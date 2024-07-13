@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+  table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: right;
+        }
+        thead th {
+            background-color: #d9534f;
+            color: white;
+			text-align:left;
+        }
+		.abc{
+			text-align:left;
+		}
+        tbody tr:nth-child(1) td {
+            background-color: lightpink;
+            color: white;
+        }
+        tbody tr:nth-child(2) td {
+            background-color: #e6e6e6;
+        }
+        tbody tr:nth-child(3) td {
+            background-color:#d3d3d3 ;
+			
+        }
